@@ -2,7 +2,7 @@ import sys, os
 from telethon import TelegramClient, events
 from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
 from telethon.sessions import StringSession
-import youtube_dl as ydl
+import youtube-dl as ydl
 from urllib import request
 import traceback
 import subprocess
